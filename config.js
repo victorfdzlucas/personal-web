@@ -9,7 +9,7 @@ export const avatarSrc = avatar.src;
 /* -------------------------------------------------------------------- */
 
 /* ------------------------------ TITLE ------------------------------------- */
-export const title = "Hi, I'm Víctor";
+export const title = "Hi, I'm Victor";
 /* -------------------------------------------------------------------------- */
 
 /* ------------------------------ SUBTITLE ---------------------------------- */
@@ -38,21 +38,25 @@ export const companies = [
     name: "Cupra",
     role: "R&D Engineer",
     logo: "/company-logos/cupra_logo.jpg",
+    link: "https://www.cupra.com",
   },
   {
     name: "Celonis",
     role: "Value Engineer",
     logo: "/company-logos/celonis_logo.png",
+    link: "https://www.celonis.com",
   },
   {
     name: "Frekuent",
     role: "Operations Engineer",
     logo: "/company-logos/frekuent_logo.png",
+    link: "https://www.frekuent.com",
   },
   {
     name: "Aily Labs",
     role: "Data Scientist",
     logo: "/company-logos/aily_logo.png",
+    link: "https://www.ailylabs.com",
   },
 ];
 
@@ -73,11 +77,6 @@ export const projects = [
     title: "Race Walking Electronic Control System",
     image: "/rwecs_pic.png",
     link: "https://archive.ph/WEQme",
-  },
-  {
-    title: "Web development for SEAT CUPRA",
-    image: "/seat_web.png",
-    link: "https://aprendices.seatformacion.com",
   },
   {
     title: "Voice Insights Dashboard",
@@ -129,5 +128,5 @@ export const contactEmail = "victor.fernandez.lucas@gmail.com";
 /* ------------------------------ FOOTER ---------------------------------- */
 export const showFooter = true;
 export const footerText =
-  "© Copyright 2026 Víctor Fernández Lucas — All rights reserved";
+  "© Copyright 2026 Victor Fernandez Lucas — All rights reserved";
 /* ------------------------------------------------------------------------ */

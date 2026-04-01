@@ -16,7 +16,12 @@ export default function Companies() {
             className="flex flex-col items-center justify-center rounded-xl border border-gray-200 bg-white p-4 shadow-sm"
           >
             {company.logo ? (
-              <div className="flex h-12 w-full items-center justify-center">
+              <a
+                href={company.link || "#"}
+                target={company.link ? "_blank" : undefined}
+                rel={company.link ? "noreferrer" : undefined}
+                className="flex h-12 w-full items-center justify-center"
+              >
                 <Image
                   src={company.logo}
                   alt={`${company.name} logo`}
@@ -25,13 +30,21 @@ export default function Companies() {
                   unoptimized
                   className="h-full w-auto object-contain"
                 />
-              </div>
+              </a>
             ) : null}
 
             <div className="mt-3 text-center">
-              <p className="text-sm font-semibold text-slate-700">
-                {company.name}
-              </p>
+              {company.link ? (
+                <a href={company.link} target="_blank" rel="noreferrer">
+                  <p className="text-sm font-semibold text-slate-700">
+                    {company.name}
+                  </p>
+                </a>
+              ) : (
+                <p className="text-sm font-semibold text-slate-700">
+                  {company.name}
+                </p>
+              )}
               {company.role ? (
                 <p className="mt-1 text-xs text-slate-600">{company.role}</p>
               ) : null}

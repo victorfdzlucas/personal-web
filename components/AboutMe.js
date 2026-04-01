@@ -10,7 +10,7 @@ export default function AboutMe() {
     >
       <SectionTitle>About Me </SectionTitle>
       <SectionText>
-        Hey! I’m Víctor Fernández, a Telecom Engineer
+        Hey! I’m Victor Fernandez, a Telecommunications Engineer
         currently working as a{" "}
         <span className="font-medium text-gray-800">
           Data Scientist 

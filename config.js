@@ -81,6 +81,7 @@ export const projects = [
   {
     title: "Voice Insights Dashboard",
     image: "/voice_pic.png",
+    link: "https://github.com/victorfdzlucas/voice-insights",
   },
 ];
 /* -------------------------------------------------------------------------- */

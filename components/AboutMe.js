@@ -12,13 +12,14 @@ export default function AboutMe() {
       <SectionText>
         Hey! I’m Victor Fernandez, a Telecommunications Engineer
         currently working as a{" "}
+        <span className="font-medium text-gray-800">Data Scientist</span> at{" "}
+        <span className="font-medium text-gray-800">Aily Labs</span> and
+        part-time{" "}
         <span className="font-medium text-gray-800">
-          Data Scientist 
-        </span> at{" "} 
-        <span className="font-medium text-gray-800">
-        Aily Labs
-        </span>
-        .
+          AI Automation Engineer
+        </span>{" "}
+        at{" "}
+        <span className="font-medium text-gray-800">Enzo Ventures</span>.
         <br />
         <br />
         I’m especially interested in building things from scratch and turning

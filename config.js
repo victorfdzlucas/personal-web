@@ -58,6 +58,12 @@ export const companies = [
     logo: "/company-logos/aily_logo.png",
     link: "https://www.ailylabs.com",
   },
+  {
+    name: "Enzo Ventures",
+    role: "AI Automation Engineer",
+    logo: "/company-logos/enzo_logo.png",
+    link: "https://enzoventures.eu/",
+  },
 ];
 
 /* ------------------------------ NAVBAR LINKS ------------------------------ */

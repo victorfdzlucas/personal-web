@@ -64,7 +64,7 @@ export const companies = [
 export const showNavbarLinks = true;
 export const externalLinks = {
   github: "https://github.com/victorfdzlucas",
-  linkedin: "https://www.linkedin.com/in/victor-fernandez-lucas-66367a205/",
+  linkedin: "https://www.linkedin.com/in/victorfdzlucas/",
   instagram: "https://www.instagram.com/victorfdzlucas/",
 };
 /* -------------------------------------------------------------------------- */
